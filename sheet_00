@@ -1,0 +1,127 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Define two variables `a` and `b` and set them to two integer values of your choice. Print the _sum_, _difference_, _product_ and if the two numbers _are identical_."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Define a function called `sum_integers` which takes two integers as an input and returns their sum. Print a test of this function."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Print all numbers from 1 to 20 and their squares using a `for` loop."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Define a function to calculate the `n`th Fibonacci number (it is the sum of the `n-1`th and `n-2`th Fibonacci number, where the first and second Fibonacci number are set to `1`). Test your function by calculating the 10th Fibonacci number"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Define a function to test if a number is a prime number, i.e. if it can be divided by no other number but itself and 1. Test the function by printing all prime numbers between 1 and 100."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Use your prime number function to find all pairs of prime numbers which are apart by one non-prime, i.e. pairs `(n, n+2)` where `n` is a prime number up to a maximum `n` of 1000. Store those pairs as `Tupel` in a list and print the list after the search."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Search again for pairs of prime numbers, but this time for `n` between 10,000,000 and 10,001,000. Store those pairs as `Tupel` in a list and print the list after the search. What do experience during this search?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Rework your code and try to implement the following changes:\n",
+    "- Comment your code by using the `#` character. The key is not to comment on every line but rather to help you read through your code fluently.\n",
+    "- Can you use `type-specification` in functions to make them more exact? Note that this will not result in a speed-up but rather should be used to make functions more intuitive and prevent wrong arguments to be passed (e.g. asking whether `2.2351` is a prime?).\n",
+    "- Try not to simply print variables but rather _explanations and variables_ using the `$` syntax in julia. This will result in much more readable code and output"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Julia 0.6.2",
+   "language": "julia",
+   "name": "julia-0.6"
+  },
+  "language_info": {
+   "file_extension": ".jl",
+   "mimetype": "application/julia",
+   "name": "julia",
+   "version": "0.6.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
